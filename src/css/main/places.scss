@@ -72,5 +72,13 @@
     font-size: 1.4rem;
     font-weight: normal;
     margin: 20px auto 10px;
+    & a{
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 }

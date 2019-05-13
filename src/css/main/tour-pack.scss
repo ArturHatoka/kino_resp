@@ -82,6 +82,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    &-colorful{
+      padding: 20px 0;
+      width: 100%;
+      background: #d5d4d8;
+      color: #fbae00;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px black;
+      text-align: center;
+    }
     &-title{
       font-size: 2rem;
       font-weight: bold;
@@ -118,7 +128,7 @@
           background: url("../../src/img/main/boxes/back2.png") center no-repeat;
         }
         &.second{
-          background: url("../../src/img/main/boxes/back3.png") center no-repeat;
+          background: url("../../src/img/main/boxes/back3.png") center 75% no-repeat;
         }
         &.third{
           background: url("../../src/img/main/boxes/back4.png") center no-repeat;
@@ -291,7 +301,7 @@
           left: 0;
           filter: brightness(.35) blur(1px);
           z-index: -1;
-          background: url("../../src/img/main/boxes/back2.png") center no-repeat;
+          background: url("../../src/img/main/vip/most.jpg") center no-repeat;
         }
         &-text{
           padding: 50px;
