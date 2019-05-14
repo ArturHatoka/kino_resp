@@ -276,7 +276,8 @@ header {
         margin: 55px auto 25px;
         font-size: 2rem;
         font-weight: bold;
-        text-shadow: 1px 1px 2px black; }
+        text-shadow: 1px 1px 2px black;
+        padding: 0 10px; }
       .tour-pack__offer__box-subtitle {
         background: white;
         padding: 15px;

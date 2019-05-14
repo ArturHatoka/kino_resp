@@ -19,14 +19,24 @@
   .crumbs {
     width: 85%;
   }
+  .tour-pack__offer__box-subtitle{
+    margin: 10px;
+  }
   .tour-pack__privilege__box-text {
     padding: 30px 40px;
+  }
+  .tour-pack__privilege-title b{
+    font-size: 2.4rem;
+  }
+  .tour-pack__vip-title{
+    font-size: 1.4rem;
   }
   .tour-pack__vip__box {
     margin-bottom: 0;
   }
   .tour-pack__vip__box-title{
     text-align: center;
+    font-size: 2.5rem;
   }
   .tour-pack__vip__box__img {
     flex-direction: column;
@@ -36,6 +46,25 @@
   }
   .tour-pack__vip__comfort-title {
     text-align: center;
+    font-size: 2.5rem;
+  }
+  .tour-pack__vip__comfort-txt{
+    font-size: 1.2rem;
+    & b{
+      font-size: 1.3rem;
+    }
+  }
+  .tour-pack__vip__comfort-marked{
+    font-size: 1.2rem;
+  }
+  .tour-pack__vip__comfort__over-list-point span {
+    font-size: 1.2rem;
+  }
+  .tour-pack__vip__comfort__box-title {
+    font-size: 2.2rem;
+  }
+  .places-title {
+    font-size: 2.4rem;
   }
   .tour-pack__vip__comfort__over {
     padding: 0 20px;
@@ -82,6 +111,13 @@
 @media screen and (max-width: 375px) {
   body{
     width: 99.8%;
+  }
+  .tour-pack__vip__box-title {
+    padding: 0 10px;
+    font-size: 2.3rem;
+  }
+  .tour-pack__vip__comfort-title {
+    font-size: 2.3rem;
   }
   .tour-pack__offer__box-subtitle b {
     font-size: 3.2rem;
