@@ -148,7 +148,10 @@
     margin: 35px 20px 65px; }
 
   .crumbs {
-    width: 80%; } }
+    width: 80%; }
+
+  .form-item {
+    font-size: 1.2rem; } }
 @media screen and (max-width: 320px) {
   html {
     font-size: 12px; } }
